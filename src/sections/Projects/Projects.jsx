@@ -12,9 +12,9 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/rspartan-117/yt-clone"
           h3="Viberr"
-          p="Streaming App"
+          p="Video Streaming App"
         />
         <ProjectCard
           src={freshBurger}
@@ -28,12 +28,7 @@ function Projects() {
           h3="Hipsster"
           p="Glasses Shop"
         />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
-        />
+       
       </div>
     </section>
   );
