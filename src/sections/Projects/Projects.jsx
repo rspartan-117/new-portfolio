@@ -18,13 +18,13 @@ function Projects() {
         />
         <ProjectCard
           src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/rspartan-117"
           h3="Fresh Burger"
           p="Hamburger Restaurant"
         />
         <ProjectCard
           src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/rspartan-117"
           h3="Hipsster"
           p="Glasses Shop"
         />
