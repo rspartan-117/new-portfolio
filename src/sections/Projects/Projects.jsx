@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+
+import vr from '../../assets/Vr.webp';
+import shoe from '../../assets/shoe.webp';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -12,21 +12,21 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/rspartan-117/yt-clone"
+          link="https://capable-donut-8b0645.netlify.app/"
           h3="Viberr"
           p="Video Streaming App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/rspartan-117"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={vr}
+          link="https://virtual-reality-website-react.netlify.app"
+          h3="Vr Website"
+          p="Virtual Reality build tools"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/rspartan-117"
+          src={shoe}
+          link="https://nike-dashboard-page.netlify.app"
           h3="Hipsster"
-          p="Glasses Shop"
+          p="Shoes Website"
         />
        
       </div>
