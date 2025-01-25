@@ -36,7 +36,7 @@ function Projects() {
         />
         <ProjectCard
           src={vr}
-          link="https://virtual-reality-website-react.netlify.app"
+          link="vrworld-react.netlify.app"
           h3="Vr Website"
           p1="Modern Landing Page"
           p2="React, Typescript, TailwindCSS"
