@@ -1,17 +1,26 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
-
 import vr from '../../assets/Vr.webp';
 import shoe from '../../assets/shoe.webp';
 import ProjectCard from '../../common/ProjectCard';
 import weather from '../../assets/weather.webp';
 import Dashboard from '../../assets/Dashboard.webp';
+import zentry from '../../assets/zentry.webp';
+
+
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+      <ProjectCard
+          src={zentry}
+          link="https://zentry-gsap.netlify.app"
+          h3="Zentry"
+          p1="Gaming Website"
+          p2="Gsap, React"
+        />
         <ProjectCard
           src={viberr}
           link="https://capable-donut-8b0645.netlify.app/"
