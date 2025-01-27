@@ -6,6 +6,7 @@ import ProjectCard from '../../common/ProjectCard';
 import weather from '../../assets/weather.webp';
 import Dashboard from '../../assets/Dashboard.webp';
 import zentry from '../../assets/zentry.webp';
+import livewrite from '../../assets/Livewrite.webp';
 
 
 
@@ -49,6 +50,13 @@ function Projects() {
           h3="Vr Website"
           p1="Modern Landing Page"
           p2="React, Typescript, TailwindCSS"
+        />
+          <ProjectCard
+          src={livewrite}
+          link="https://livewrite.vercel.app/"
+          h3="LiveWrite"
+          p1="Collaboration Website"
+          p2="Firebase, React, Typescript"
         />
         <ProjectCard
           src={shoe}
