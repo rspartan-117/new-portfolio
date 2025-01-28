@@ -7,6 +7,7 @@ import weather from '../../assets/weather.webp';
 import Dashboard from '../../assets/Dashboard.webp';
 import zentry from '../../assets/zentry.webp';
 import livewrite from '../../assets/Livewrite.webp';
+import broodl from '../../assets/broodl.webp';
 
 
 
@@ -15,6 +16,13 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+      <ProjectCard
+          src={broodl}
+          link="https://broodl-beta.vercel.app/"
+          h3="Broodl"
+          p1="Mood tracking Website"
+          p2="Firebase, Nextjs"
+        />
       <ProjectCard
           src={zentry}
           link="https://zentry-gsap.netlify.app"
@@ -29,21 +37,20 @@ function Projects() {
           p1="Video Streaming App"
           p2="React, Material UI, TailwindCSS"
         />
-        <ProjectCard
-          src={weather}
-          link="https://weather-nextjs-typescript.netlify.app/"
-          h3="WeatherWise"
-          p1="Weather App"
-          p2="Nextjs, Typescript, TailwindCSS"
-
-        />
-         <ProjectCard
+            <ProjectCard
           src={Dashboard}
           link="https://admin-dashboard-nextjs-typescript.netlify.app/"
           h3="Dashboard"
           p1="Admin Dashboard"
           p2="Nextjs, Shadcn, Typescript"
         />
+        <ProjectCard
+          src={weather}
+          link="https://weather-nextjs-typescript.netlify.app/"
+          h3="WeatherWise"
+          p1="Weather App"
+          p2="Nextjs, Typescript, TailwindCSS"
+        /> 
         <ProjectCard
           src={vr}
           link="https://vrworld-react.netlify.app"
@@ -65,6 +72,7 @@ function Projects() {
           p1="Shoes Website"
           p2="React, TailwindCSS"
         />
+         
       </div>
     </section>
   );
