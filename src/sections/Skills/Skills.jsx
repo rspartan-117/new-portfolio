@@ -23,18 +23,28 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="Nextjs" />
         <SkillList src={checkMarkIcon} skill="React Native" />
+        <SkillList src={checkMarkIcon} skill="Redux" />
+        <SkillList src={checkMarkIcon} skill="Jest" />
+        
+      </div>
+      <hr />
+      <div className={styles.skillList}> 
+        <SkillList src={checkMarkIcon} skill="Git" />
+        <SkillList src={checkMarkIcon} skill="Firebase" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
         <SkillList src={checkMarkIcon} skill="Shadcn" />
+        <SkillList src={checkMarkIcon} skill="Storybook" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Redux" />
-        <SkillList src={checkMarkIcon} skill="Jest" />
         <SkillList src={checkMarkIcon} skill="Vite" />
-        <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="Storybook" />
+        <SkillList src={checkMarkIcon} skill="LightHouse" />
+        <SkillList src={checkMarkIcon} skill="Tanstack Query" />
+        <SkillList src={checkMarkIcon} skill="Progressive Web App" />
+        <SkillList src={checkMarkIcon} skill="MicroFrontend" />
+        
       </div>
-      
+      <hr />
     </section>
   );
 }
