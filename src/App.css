@@ -39,6 +39,15 @@ p {
   margin: 0;
   padding: 0;
 }
+.sectionTitleExpdesc {
+
+  color:white;
+  font-size:larger;
+  
+}
+.sectionTitleExp {
+  margin-bottom: 20px;
+}
 
 h2,
 h3,
@@ -70,6 +79,10 @@ p {
   margin-bottom: 30px;
 }
 
+.sectionTitleExpsub {
+  margin-bottom: 40px;
+}
+
 .hover {
   cursor: pointer;
 }
@@ -92,6 +105,9 @@ p {
   .sectionTitle {
     margin-bottom: 60px;
   }
+
+  
+
 
   @media (width >= 1400px) {
     #root {

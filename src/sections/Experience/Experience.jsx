@@ -1,0 +1,39 @@
+import styles from './ExperienceStyles.module.css';
+import SkillList from '../../common/SkillList';
+import checkMarkIconDark from '../../assets/checkmark-dark.svg';
+import checkMarkIconLight from '../../assets/checkmark-light.svg';
+import { useTheme } from '../../common/ThemeContext';
+
+
+function Experience() {
+   const { theme } = useTheme();
+    const checkMarkIcon = theme === 'light' ? checkMarkIconLight : checkMarkIconDark;
+  
+
+  return (
+    <section id="experience" className={styles.container}>
+      <h1 className="sectionTitle">Work Experience</h1>
+     
+     <h2 className="sectionTitleExp">Full Stack Intern - ShortCastle (January 2025 - Present)</h2>
+     <hr />
+     <h2 className="sectionTitleExpsub">FedChess</h2>
+     <div className='sectionTitleExpdesc'>Developed a Chess federation/Club Management platform from scratch with admin panels and Role Base Access Systems</div>
+     <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Nextjs" />
+        <SkillList src={checkMarkIcon} skill="Typescript" />
+        <SkillList src={checkMarkIcon} skill="Trpc" />
+        <SkillList src={checkMarkIcon} skill="Zod" />
+        <SkillList src={checkMarkIcon} skill="React-Hook-Form" />
+        <SkillList src={checkMarkIcon} skill="Shadcn" />
+        
+      </div>
+      <hr />
+    
+  
+    
+    </section>
+  );
+}
+
+export default Experience;
