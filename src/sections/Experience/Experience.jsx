@@ -14,7 +14,8 @@ function Experience() {
     <section id="experience" className={styles.container}>
       <h1 className="sectionTitle">Work Experience</h1>
      
-     <h2 className="sectionTitleExp">Full Stack Intern - ShortCastle (January 2025 - Present)</h2>
+     <h2 className="sectionTitleExp">Full Stack Intern - ShortCastle</h2>
+     <h2 className="sectionTitleExp">(January 2025 - Present)</h2>
      <hr />
      <h2 className="sectionTitleExpsub">FedChess</h2>
      <div className='sectionTitleExpdesc'>Developed a Chess federation/Club Management platform from scratch with admin panels and Role Base Access Systems</div>
