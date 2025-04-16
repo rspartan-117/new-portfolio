@@ -53,7 +53,7 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href='https://drive.google.com/file/d/1YZ_eSwvzSd9PKtEsg74grvVa5KvZUZJ5/view?usp=drivesdk'>
+        <a href='https://drive.google.com/file/d/1s2hJ4E1qNFxptTHvKJmZChOJzDwAKg2w/view?usp=drive_link'>
           <button className="hover">Resume</button>
         </a>
       </div>
