@@ -33,14 +33,14 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="PostgreSQL" />
         <SkillList src={checkMarkIcon} skill="mongodb" />
         <SkillList src={checkMarkIcon} skill="Next-Auth" />
-        <SkillList src={checkMarkIcon} skill="AWS" />
+        <SkillList src={checkMarkIcon} skill="Docker/AWS" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="React-Hook-form" />
         <SkillList src={checkMarkIcon} skill="Zod" />
         <SkillList src={checkMarkIcon} skill="Tanstack Query" />
-        <SkillList src={checkMarkIcon} skill="Progressive Web App" />
+        <SkillList src={checkMarkIcon} skill="PWA" />
         <SkillList src={checkMarkIcon} skill="MicroFrontend" />
         
       </div>

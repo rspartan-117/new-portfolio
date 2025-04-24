@@ -15,8 +15,7 @@ function Experience() {
     <section id="experience" className={styles.container}>
       <h1 className="sectionTitle">Work Experience</h1>
      
-     <h2 className="sectionTitleExp">Full Stack Developer - ShortCastle</h2>
-     <h2 className="sectionTitleExp">(January 2025 - Present)</h2>
+     <h2 className="sectionTitleExp">Full Stack Developer - ShortCastle Tech</h2>
      <hr />
      <h2 className="sectionTitleExpsub">FedChess
      <a href="https://fms.chesslang.com/login" target="_blank" rel="noopener noreferrer">
@@ -25,7 +24,7 @@ function Experience() {
      </h2>
     
      
-     <div className='sectionTitleExpdesc'>Developed a Chess federation/Club Management platform from scratch with admin panels and Role Base Access Systems</div>
+     <div className='sectionTitleExpdesc'>Developed a Chess federation/Club Management platform from scratch with Admin panels, Payment gateway and Role Base Access Systems</div>
      <div className='sectionTitleExpdesc'>Merged around 60 contributions in one month</div>
      <hr />
       <div className={styles.skillList}>
@@ -34,6 +33,7 @@ function Experience() {
         <SkillList src={checkMarkIcon} skill="Trpc" />
         <SkillList src={checkMarkIcon} skill="Zod" />
         <SkillList src={checkMarkIcon} skill="React-Hook-Form" />
+        <SkillList src={checkMarkIcon} skill="Next-Auth" />
         <SkillList src={checkMarkIcon} skill="Shadcn" />
         <SkillList src={checkMarkIcon} skill="AWS" />
         
