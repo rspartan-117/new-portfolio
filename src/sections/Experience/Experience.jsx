@@ -24,17 +24,18 @@ function Experience() {
      </h2>
     
      
-     <div className='sectionTitleExpdesc'>Developed a Chess federation/Club Management platform from scratch with Admin panels, Payment gateway and Role Base Access Systems</div>
+     <div className='sectionTitleExpdesc'>Built a Chess federation/Club Management platform from scratch with Admin panels, Payment gateway and Role Base Access Systems</div>
      <div className='sectionTitleExpdesc'>Merged around 150+ commits in one month</div>
      <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Nextjs" />
         <SkillList src={checkMarkIcon} skill="Typescript" />
         <SkillList src={checkMarkIcon} skill="Trpc" />
+         <SkillList src={checkMarkIcon} skill="Prisma" />
+         <SkillList src={checkMarkIcon} skill="Postgres" />
         <SkillList src={checkMarkIcon} skill="Zod" />
         <SkillList src={checkMarkIcon} skill="React-Hook-Form" />
         <SkillList src={checkMarkIcon} skill="Next-Auth" />
-        <SkillList src={checkMarkIcon} skill="Shadcn" />
         <SkillList src={checkMarkIcon} skill="AWS" />
         
       </div>
