@@ -24,8 +24,10 @@ function Experience() {
      </h2>
     
      
-     <div className='sectionTitleExpdesc'>Built a Chess federation/Club Management platform from scratch with Admin panels, Payment gateway and Role Base Access Systems</div>
-     <div className='sectionTitleExpdesc'>Merged around 150+ commits in one month</div>
+     <div className='sectionTitleExpdesc'>Built a Chess federation/Club Management platform from scratch.</div> <br/>
+     <div className='sectionTitleExpdesc'> Added admin panels, Payment gateway, Dynamic form and Role Base Access Systems.</div>
+     <br/>
+     <div className='sectionTitleExpdesc'>Merged around 150+ commits in one month.</div>
      <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Nextjs" />
