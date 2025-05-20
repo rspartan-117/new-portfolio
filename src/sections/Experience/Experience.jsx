@@ -18,7 +18,7 @@ function Experience() {
      <h2 className="sectionTitleExp">Full Stack Developer - ShortCastle Tech</h2>
      <hr />
      <h2 className="sectionTitleExpsub">FedChess
-     <a href="https://fms.chesslang.com/home" target="_blank" rel="noopener noreferrer">
+     <a href="https://fms.chesslang.com/login" target="_blank" rel="noopener noreferrer">
      <FiExternalLink style={{ marginLeft: "8px", color:"white"}} />
      </a>
      </h2>
