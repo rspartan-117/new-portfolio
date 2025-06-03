@@ -22,7 +22,7 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="Nextjs" />
-        <SkillList src={checkMarkIcon} skill="React Native" />
+        <SkillList src={checkMarkIcon} skill="Nestjs" />
         <SkillList src={checkMarkIcon} skill="Redux" />
         <SkillList src={checkMarkIcon} skill="Trpc" />
         
@@ -32,8 +32,17 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="PostgreSQL" />
         <SkillList src={checkMarkIcon} skill="mongodb" />
+        <SkillList src={checkMarkIcon} skill="Prisma" />
+        <SkillList src={checkMarkIcon} skill="Mongoose" />
+      </div>
+      <hr />
+       <div className={styles.skillList}>
+         <SkillList src={checkMarkIcon} skill="Redis" />
+        <SkillList src={checkMarkIcon} skill="Docker" />
+        <SkillList src={checkMarkIcon} skill="AWS" />
+        <SkillList src={checkMarkIcon} skill="Kafka" />
         <SkillList src={checkMarkIcon} skill="Next-Auth" />
-        <SkillList src={checkMarkIcon} skill="Docker/AWS" />
+        
       </div>
       <hr />
       <div className={styles.skillList}>

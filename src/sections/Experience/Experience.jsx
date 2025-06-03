@@ -17,7 +17,7 @@ function Experience() {
      
      <h2 className="sectionTitleExp">Full Stack Developer - ShortCastle Tech</h2>
      <hr />
-     <h2 className="sectionTitleExpsub">FedChess
+     <h2 className="sectionTitleExpsub">Product - FedChess
      <a href="https://fms.chesslang.com/login" target="_blank" rel="noopener noreferrer">
      <FiExternalLink style={{ marginLeft: "8px", color:"white"}} />
      </a>
@@ -29,6 +29,7 @@ function Experience() {
      <br/>
      <div className='sectionTitleExpdesc'>Merged around 150+ commits in one month.</div>
      <hr />
+      <h2 className="sectionTitleExpsub">Tech Stack : </h2>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Nextjs" />
         <SkillList src={checkMarkIcon} skill="Typescript" />
