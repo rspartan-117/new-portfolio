@@ -15,7 +15,7 @@ function Experience() {
     <section id="experience" className={styles.container}>
       <h1 className="sectionTitle">Work Experience</h1>
      
-     <h2 className="sectionTitleExp">Full Stack Developer - ShortCastle Tech</h2>
+     <h2 className="sectionTitleExp">Full Stack Engineer - ShortCastle Tech</h2>
      <hr />
      <h2 className="sectionTitleExpsub">Product - FedChess
      <a href="https://fms.chesslang.com/login" target="_blank" rel="noopener noreferrer">
