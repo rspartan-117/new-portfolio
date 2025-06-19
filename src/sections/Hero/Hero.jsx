@@ -50,8 +50,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for building modern React web apps for commercial
-          businesses.
+         Experienced in crafting scalable React web apps for business needs.
         </p>
         <button
          className="hover"
