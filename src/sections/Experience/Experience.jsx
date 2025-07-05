@@ -22,7 +22,8 @@ function Experience() {
       maxWidth: '1200px',
       margin: '0 auto'
     }}>
-      <h1 className="sectionTitle">Work Experience</h1>
+      <h1 className="sectionTitle">Work {"\u00A0"} Experience</h1>
+     
      
      <h2 className="sectionTitleExp">Full Stack Engineer - ShortCastle Tech</h2>
      <hr />

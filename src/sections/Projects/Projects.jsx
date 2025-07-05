@@ -44,13 +44,7 @@ function Projects() {
           p1="Video Streaming App"
           p2="React, Material UI, TailwindCSS"
         />
-            <ProjectCard
-          src={Dashboard}
-          link="https://admin-dashboard-nextjs-typescript.netlify.app/"
-          h3="Dashboard"
-          p1="Admin Dashboard"
-          p2="Nextjs, Shadcn, Typescript"
-        />
+          
         <ProjectCard
           src={weather}
           link="https://weather-nextjs-typescript.netlify.app/"

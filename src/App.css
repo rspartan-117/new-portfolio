@@ -1,9 +1,9 @@
 :root {
-  --background-color: #fff;
+  --background-color: #f0f2f5;
   --btn-color: #0987f2;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
-  --text-color: #222;
+  --text-color: #1a1a1a;
   --form-text-color: #555;
   --footer-text-color: #888;
 }
@@ -41,10 +41,8 @@ p {
   padding: 0;
 }
 .sectionTitleExpdesc {
-
-  color:white;
-  font-size:larger;
-  
+  color: var(--text-color);
+  font-size: larger;
 }
 .sectionTitleExp {
   margin-bottom: 20px;
