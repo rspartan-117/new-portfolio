@@ -40,7 +40,7 @@ function Hero() {
           <br />
           Sharma
         </h1>
-        <h2>Full-Stack Developer</h2>
+        <h2>Full-Stack Engineer</h2>
         <span>
           <a href="https://github.com/rspartan-117" target="_blank">
             <img src={githubIcon} alt="Github icon" />
@@ -50,7 +50,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-       Experienced in building scalable web applications designed to meet dynamic business requirements.
+       Experienced in building and scaling web applications designed to meet dynamic business requirements.
         </p>
         <button
          className="hover"
