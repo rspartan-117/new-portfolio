@@ -6,7 +6,7 @@ import { useTheme } from '../../common/ThemeContext';
 import { FiExternalLink } from "react-icons/fi";
 import fms from '../../assets/fms.png';
 import lifeOrg from '../../assets/lifeOrg.png';
-
+import chesslang2 from '../../assets/chesslang2.webp';
 
 
 
@@ -24,9 +24,68 @@ function Experience() {
     }}>
       <h1 className="sectionTitle">Work {"\u00A0"} Experience</h1>
      
+     <h2 className="sectionTitleExp">Full Stack Engineer (Web2 + Web3) - M0</h2>
+
+     <h2 className="sectionTitleExpsub">Product - LifeOrg
+     </h2>
+    
+     <div style={{ 
+       display: 'flex', 
+       justifyContent: 'center', 
+       marginBottom: '20px',
+       padding: '0 10px'
+     }}>
+       <div style={{ 
+         width: '100%',
+         maxWidth: '450px'
+       }}>
+         <a href="#" target="_blank" rel="noopener noreferrer">
+           <img 
+             src={lifeOrg} 
+             alt="LifeOrg Product" 
+             style={{ 
+               width: '100%', 
+               height: 'auto',
+               minHeight: '200px',
+               maxHeight: '300px',
+               objectFit: 'cover',
+               display: 'block',
+               borderRadius: '8px'
+             }} 
+           />
+         </a>
+       </div>
+     </div>
      
-     <h2 className="sectionTitleExp">Full Stack Engineer - ShortCastle Tech</h2>
+     <div className='sectionTitleExpdesc'>Built a full-stack AI wellness app with Web3 wallet integration and multiple specialized AI agents for personalized health coaching.</div> <br />
+      <div className='sectionTitleExpdesc'>Added real-time nutrition/habit/sleep tracking, and image-based meal analysis using computer vision. </div> <br />
+       <div className='sectionTitleExpdesc'>Integrated crypto payments and architected a scalable, privacy-first Web3 infrastructure.</div>
+     <br/>
+    
      <hr />
+      <h2 className="sectionTitleExpsub">Tech Stack : </h2>
+      <div className={styles.skillList} style={{
+        display: 'flex',
+        justifyContent: 'center',
+        flexWrap: 'wrap',
+        gap: '20px',
+        maxWidth: '100%',
+        padding: '0 10px'
+      }}>
+        <SkillList src={checkMarkIcon} skill="Nextjs" />
+        <SkillList src={checkMarkIcon} skill="Typescript" />
+        <SkillList src={checkMarkIcon} skill="Nestjs" />
+         <SkillList src={checkMarkIcon} skill="Mastra AI" />
+            <SkillList src={checkMarkIcon} skill="Trpc" />
+         <SkillList src={checkMarkIcon} skill="Postgres" />
+        <SkillList src={checkMarkIcon} skill="Blockchain" />
+        <SkillList src={checkMarkIcon} skill="AWS" />
+        
+      </div>
+      <hr />
+        <hr />
+     <h2 className="sectionTitleExp">Full Stack Engineer - ShortCastle Tech</h2>
+
      <h2 className="sectionTitleExpsub">Product - FedChess
      <a href="https://fms.chesslang.com/login" target="_blank" rel="noopener noreferrer">
      <FiExternalLink style={{ marginLeft: "8px", color:"white"}} />
@@ -87,11 +146,12 @@ function Experience() {
         
       </div>
       <hr />
-       <hr />
-       <h2 className="sectionTitleExp">Full Stack Engineer (Web2 + Web3) - M0</h2>
-     <hr />
-     <h2 className="sectionTitleExpsub">Product - LifeOrg
+           <h2 className="sectionTitleExpsub">Product - ChessLang
+              <a href="https://chesslang.com/" target="_blank" rel="noopener noreferrer">
+     <FiExternalLink style={{ marginLeft: "8px", color:"white"}} />
+     </a>
      </h2>
+  
     
      <div style={{ 
        display: 'flex', 
@@ -103,10 +163,10 @@ function Experience() {
          width: '100%',
          maxWidth: '450px'
        }}>
-         <a href="#" target="_blank" rel="noopener noreferrer">
+         <a href="https://chesslang.com/" target="_blank" rel="noopener noreferrer">
            <img 
-             src={lifeOrg} 
-             alt="LifeOrg Product" 
+             src={chesslang2} 
+             alt="ChessLang Product" 
              style={{ 
                width: '100%', 
                height: 'auto',
@@ -121,9 +181,7 @@ function Experience() {
        </div>
      </div>
      
-     <div className='sectionTitleExpdesc'>Developed a lifestyle platform with web3 wallet integrations</div> <br />
-      <div className='sectionTitleExpdesc'>Created a scalable UI architecture using Next.js and styled components </div> <br />
-       <div className='sectionTitleExpdesc'>Architected a maintainable and scalable API backend in NestJS </div>
+     <div className='sectionTitleExpdesc'>Built scalable backend services using NestJS and Golang, optimizing performance with caching strategies.</div> <br />
      <br/>
     
      <hr />
@@ -136,17 +194,19 @@ function Experience() {
         maxWidth: '100%',
         padding: '0 10px'
       }}>
-        <SkillList src={checkMarkIcon} skill="Nextjs" />
-        <SkillList src={checkMarkIcon} skill="Typescript" />
         <SkillList src={checkMarkIcon} skill="Nestjs" />
+        <SkillList src={checkMarkIcon} skill="Golang" />
+          <SkillList src={checkMarkIcon} skill="Nextjs" />
+        <SkillList src={checkMarkIcon} skill="Typescript" />
          <SkillList src={checkMarkIcon} skill="Prisma" />
          <SkillList src={checkMarkIcon} skill="Postgres" />
         <SkillList src={checkMarkIcon} skill="Zod" />
-        <SkillList src={checkMarkIcon} skill="Blockchain" />
         <SkillList src={checkMarkIcon} skill="AWS" />
         
       </div>
       <hr />
+     
+       
     
   
     
