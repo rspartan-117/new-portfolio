@@ -57,7 +57,7 @@ function Experience() {
        </div>
      </div>
      
-     <div className='sectionTitleExpdesc'>Built a full-stack AI wellness app with Web3 wallet integration and multiple specialized AI agents for personalized health coaching.</div> <br />
+     <div className='sectionTitleExpdesc'>Built a full-stack AI wellness platform with Web3 wallet integration and multiple specialized AI agents using RAG for personalized coaching and memory-driven conversations.</div> <br />
       <div className='sectionTitleExpdesc'>Added real-time nutrition/habit/sleep tracking, and image-based meal analysis using computer vision. </div> <br />
        <div className='sectionTitleExpdesc'>Integrated crypto payments and architected a scalable, privacy-first Web3 infrastructure.</div>
      <br/>
@@ -76,9 +76,11 @@ function Experience() {
         <SkillList src={checkMarkIcon} skill="Typescript" />
         <SkillList src={checkMarkIcon} skill="Nestjs" />
          <SkillList src={checkMarkIcon} skill="Mastra AI" />
+            <SkillList src={checkMarkIcon} skill="RAG" />
             <SkillList src={checkMarkIcon} skill="Trpc" />
          <SkillList src={checkMarkIcon} skill="Postgres" />
         <SkillList src={checkMarkIcon} skill="Blockchain" />
+          <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="AWS" />
         
       </div>
@@ -196,11 +198,13 @@ function Experience() {
       }}>
         <SkillList src={checkMarkIcon} skill="Nestjs" />
         <SkillList src={checkMarkIcon} skill="Golang" />
+         <SkillList src={checkMarkIcon} skill="grpc" />
+          <SkillList src={checkMarkIcon} skill="Docker" />
           <SkillList src={checkMarkIcon} skill="Nextjs" />
         <SkillList src={checkMarkIcon} skill="Typescript" />
          <SkillList src={checkMarkIcon} skill="Prisma" />
          <SkillList src={checkMarkIcon} skill="Postgres" />
-        <SkillList src={checkMarkIcon} skill="Zod" />
+        <SkillList src={checkMarkIcon} skill="Cypress" />
         <SkillList src={checkMarkIcon} skill="AWS" />
         
       </div>
