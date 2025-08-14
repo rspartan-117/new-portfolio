@@ -79,7 +79,7 @@ function Experience() {
             <SkillList src={checkMarkIcon} skill="RAG" />
             <SkillList src={checkMarkIcon} skill="Trpc" />
          <SkillList src={checkMarkIcon} skill="Postgres" />
-        <SkillList src={checkMarkIcon} skill="Blockchain" />
+        <SkillList src={checkMarkIcon} skill="Ethereum" />
           <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="AWS" />
         

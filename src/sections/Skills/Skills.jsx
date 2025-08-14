@@ -32,8 +32,9 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="PostgreSQL" />
         <SkillList src={checkMarkIcon} skill="mongodb" />
+        <SkillList src={checkMarkIcon} skill="Vector DB" />
         <SkillList src={checkMarkIcon} skill="Prisma" />
-        <SkillList src={checkMarkIcon} skill="Mongoose" />
+        
       </div>
       <hr />
        <div className={styles.skillList}>
@@ -41,16 +42,17 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="AWS" />
         <SkillList src={checkMarkIcon} skill="Kafka" />
-        <SkillList src={checkMarkIcon} skill="Next-Auth" />
+        <SkillList src={checkMarkIcon} skill="OAuth2" />
         
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="React-Hook-form" />
-        <SkillList src={checkMarkIcon} skill="Zod" />
+        <SkillList src={checkMarkIcon} skill="Langchain" />
+        <SkillList src={checkMarkIcon} skill="Gen AI" />
         <SkillList src={checkMarkIcon} skill="Tanstack Query" />
-        <SkillList src={checkMarkIcon} skill="PWA" />
-        <SkillList src={checkMarkIcon} skill="MicroFrontend" />
+        <SkillList src={checkMarkIcon} skill="RAG" />
+        <SkillList src={checkMarkIcon} skill="Ethereum/Solana" />
+      
         
       </div>
       <hr />

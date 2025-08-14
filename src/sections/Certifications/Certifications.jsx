@@ -3,6 +3,7 @@ import ProjectCard from '../../common/ProjectCard';
 import ReactLogo from '../../assets/ReactLogo.png';
 import TypeScriptLogo from '../../assets/TypeScriptLogo.png';
 import FrontEndDevCertLogo from '../../assets/FrontEndDevCertLogo.png';
+import LangchainLogo from '../../assets/LangchainLogo.png';
 
 
 
@@ -14,13 +15,7 @@ function Certifications() {
       <h1 className="sectionTitle">Certifications</h1>
       <div className={styles.projectsContainer}>
         
-        <ProjectCard
-          src={ReactLogo}
-          link="https://www.hackerrank.com/certificates/5d6716454798"
-          h3="React"
-          p1="HackerRank"
-          p2=""
-        /> 
+      
         <ProjectCard
           src={TypeScriptLogo}
           link="https://drive.google.com/file/d/1-lBFPCDWWo-UxJV1DbYWBGxRC5r-b3fU/view?usp=sharing"
@@ -28,6 +23,20 @@ function Certifications() {
           p1="SimpliLearn"
           p2=""
         />
+           <ProjectCard
+          src={LangchainLogo}
+          link="https://drive.google.com/file/d/15pEMKz79ZuNd-EdgKvPKG24-qDoq9U0t/view"
+          h3="Langchain"
+           p1="SimpliLearn"
+          p2=""
+        /> 
+          <ProjectCard
+          src={ReactLogo}
+          link="https://www.hackerrank.com/certificates/5d6716454798"
+          h3="React"
+          p1="HackerRank"
+          p2=""
+        /> 
          <ProjectCard
           src={FrontEndDevCertLogo}
           link="https://drive.google.com/file/d/179oOqUYMQe1nn7c9mcZOGCqttGCucAsI/view?usp=sharing"
