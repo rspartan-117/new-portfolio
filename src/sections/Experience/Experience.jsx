@@ -26,8 +26,7 @@ function Experience() {
      
      <h2 className="sectionTitleExp">Full Stack Engineer (Web2 + Web3) - M0</h2>
 
-     <h2 className="sectionTitleExpsub">Product - LifeOrg
-     </h2>
+  
     
      <div style={{ 
        display: 'flex', 
@@ -57,9 +56,10 @@ function Experience() {
        </div>
      </div>
      
-     <div className='sectionTitleExpdesc'>Built a full-stack AI wellness platform with Web3 wallet integration and multiple specialized AI agents using RAG for personalized coaching and memory-driven conversations.</div> <br />
-      <div className='sectionTitleExpdesc'>Added real-time nutrition/habit/sleep tracking, and image-based meal analysis using computer vision. </div> <br />
-       <div className='sectionTitleExpdesc'>Integrated crypto payments and architected a scalable, privacy-first Web3 infrastructure.</div>
+     <div className='sectionTitleExpdesc'>Built multiple decentralised AI platforms with complex agentic architectures, RAG and microservices, including chatbots, AI voice, computer vision and AI map rendering with modern web stacks (Next.js, NestJS, Prisma, tRPC, Docker, Postgres, Redis) and agentic frameworks. </div> <br />
+      <div className='sectionTitleExpdesc'>Integrated Web3 wallets and crypto payments while architecting scalable decentralized systems.
+      </div> <br />
+  
      <br/>
     
      <hr />
@@ -72,9 +72,10 @@ function Experience() {
         maxWidth: '100%',
         padding: '0 10px'
       }}>
-        <SkillList src={checkMarkIcon} skill="Nextjs" />
+       
         <SkillList src={checkMarkIcon} skill="Typescript" />
         <SkillList src={checkMarkIcon} skill="Nestjs" />
+        <SkillList src={checkMarkIcon} skill="Nextjs" />
          <SkillList src={checkMarkIcon} skill="Mastra AI" />
             <SkillList src={checkMarkIcon} skill="RAG" />
             <SkillList src={checkMarkIcon} skill="Trpc" />
