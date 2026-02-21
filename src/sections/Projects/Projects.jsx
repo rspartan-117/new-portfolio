@@ -1,73 +1,53 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import vr from '../../assets/Vr.webp';
-import shoe from '../../assets/shoe.webp';
-import ProjectCard from '../../common/ProjectCard';
-import weather from '../../assets/weather.webp';
-import Dashboard from '../../assets/Dashboard.webp';
-import zentry from '../../assets/zentry.webp';
-import livedocs from '../../assets/Livedocs.webp';
-import broodl from '../../assets/broodl.webp';
-
-
+import styles from "./ProjectsStyles.module.css";
+import ProjectCard from "../../common/ProjectCard";
+import generalized from "../../assets/generalized.png";
+import scribeOs from "../../assets/scribeOs.png";
+import depth from "../../assets/depth.png";
+import lifeOrg from "../../assets/lifeOrg.png";
+import nhealth from "../../assets/nhealth.png";
+import research3 from "../../assets/research3.png";
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
-      <h1 className="sectionTitle">Projects</h1>
+      <h1 className="sectionTitle">Products</h1>
       <div className={styles.projectsContainer}>
-      <ProjectCard
-          src={broodl}
-          link="https://broodl-beta.vercel.app/"
-          h3="Broodl"
-          p1="Mood tracking Website"
-          p2="Firebase, Nextjs"
-        />
-      <ProjectCard
-          src={zentry}
-          link="https://zentry-gsap.netlify.app"
-          h3="Zentry"
-          p1="Gaming Website"
-          p2="Gsap, React"
+        <ProjectCard
+          src={generalized}
+          link="https://generalized.xyz/"
+          h3="Generalized AI"
+          p1="AI platform that generates structured, multi-module courses and audio-books from user prompts."
         />
         <ProjectCard
-          src={livedocs}
-          link="https://live-docs-two-smoky.vercel.app/"
-          h3="LiveDocs"
-          p1="Collaboration Website"
-          p2="Typescript, Nextjs, Clerk"
+          src={scribeOs}
+          link="https://scribeos.xyz/"
+          h3="Scribe OS"
+          p1="Scalable Transcription and Translation platform converting speech and digital activity into searchable, structured text knowledge."
         />
         <ProjectCard
-          src={viberr}
-          link="https://capable-donut-8b0645.netlify.app/"
-          h3="Viberr"
-          p1="Video Streaming App"
-          p2="React, Material UI, TailwindCSS"
+          src={depth}
+          link="https://depth.systems/"
+          h3="Depth Systems"
+          p1="AI-powered deep research platform for academics, professionals, and lifelong learners, offering comprehensive insights and analysis across various domains."
         />
-          
         <ProjectCard
-          src={weather}
-          link="https://weather-nextjs-typescript.netlify.app/"
-          h3="WeatherWise"
-          p1="Weather App"
-          p2="Nextjs, Typescript, TailwindCSS"
-        /> 
-        <ProjectCard
-          src={vr}
-          link="https://vrworld-react.netlify.app"
-          h3="Vr Website"
-          p1="Modern Landing Page"
-          p2="React, Typescript, TailwindCSS"
+          src={lifeOrg}
+          link="https://lifeorg.ai/"
+          h3="LifeOrg"
+          p1="AI-powered multi-agentic life management platform that organizes and optimizes user's nutrition through intelligent inputs and Voice conversations."
         />
-          
         <ProjectCard
-          src={shoe}
-          link="https://nike-dashboard-page.netlify.app"
-          h3="Hipsster"
-          p1="Shoes Website"
-          p2="React, TailwindCSS"
+          src={nhealth}
+          link="https://app.nhealth.ai/"
+          h3="NHealth"
+          p1="Health management platform with multiple ai-agents that provide personalized insights and recommendations for users to optimize their well-being and to manage chronic conditions effectively."
         />
-         
+        <ProjectCard
+          src={research3}
+          link="https://www.research3.ai/"
+          h3="Research3"
+          p1="Academic research assistant platform that uses AI to help researchers find relevant papers, generate summaries, and create structured notes for efficient knowledge management."
+        />
       </div>
     </section>
   );
