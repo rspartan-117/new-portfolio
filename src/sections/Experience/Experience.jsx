@@ -21,9 +21,7 @@ function Experience() {
       }}
     >
       <h1 className="sectionTitle">Work {"\u00A0"} Experience</h1>
-      <h2 className="sectionTitleExp">
-        Founding Full Stack Engineer (Web2 + Web3) - M0
-      </h2>
+      <h2 className="sectionTitleExp">Founding Full Stack Engineer - M0</h2>
       <div
         style={{
           display: "flex",
