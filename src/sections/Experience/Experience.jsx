@@ -22,7 +22,7 @@ function Experience() {
     >
       <h1 className="sectionTitle">Work {"\u00A0"} Experience</h1>
       <h2 className="sectionTitleExp">Founding Full Stack Engineer - M0</h2>
-      <h2 className="sectionTitleExp">June 2025 - Present</h2>
+      <h2 className="sectionTitleExpdesc">(June 2025 - Present)</h2>
       <div
         style={{
           display: "flex",
@@ -93,7 +93,7 @@ function Experience() {
       <h2 className="sectionTitleExp">
         Full Stack Engineer - ShortCastle Tech
       </h2>
-      <h2 className="sectionTitleExp">October 2024 - June 2025</h2>
+      <h2 className="sectionTitleExpdesc">(October 2024 - June 2025)</h2>
       <div
         style={{
           display: "flex",
