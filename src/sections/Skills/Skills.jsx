@@ -14,17 +14,18 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="TypeScript" />
-        <SkillList src={checkMarkIcon} skill="Nodejs" />
+        <SkillList src={checkMarkIcon} skill="Java" />
         <SkillList src={checkMarkIcon} skill="Golang" />
         <SkillList src={checkMarkIcon} skill="REST/GraphQL" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="React" />
-        <SkillList src={checkMarkIcon} skill="Nextjs" />
+        <SkillList src={checkMarkIcon} skill="Nodejs" />
         <SkillList src={checkMarkIcon} skill="Nestjs" />
-        <SkillList src={checkMarkIcon} skill="Redux" />
-        <SkillList src={checkMarkIcon} skill="Trpc" />
+        <SkillList src={checkMarkIcon} skill="Nextjs" />
+        <SkillList src={checkMarkIcon} skill="React" />
+        <SkillList src={checkMarkIcon} skill="SpringBoot" />
+        
         
       </div>
       <hr />
@@ -32,24 +33,24 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="PostgreSQL" />
         <SkillList src={checkMarkIcon} skill="mongodb" />
-        <SkillList src={checkMarkIcon} skill="Vector DB" />
+        <SkillList src={checkMarkIcon} skill="Redis" />
         <SkillList src={checkMarkIcon} skill="Prisma" />
         
       </div>
       <hr />
        <div className={styles.skillList}>
-         <SkillList src={checkMarkIcon} skill="Redis" />
-        <SkillList src={checkMarkIcon} skill="Docker" />
+         <SkillList src={checkMarkIcon} skill="Docker" />
+        <SkillList src={checkMarkIcon} skill="Kubernetes" />
         <SkillList src={checkMarkIcon} skill="AWS" />
         <SkillList src={checkMarkIcon} skill="Kafka" />
-        <SkillList src={checkMarkIcon} skill="OAuth2" />
+        <SkillList src={checkMarkIcon} skill="Github Actions" />
         
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Langchain" />
-        <SkillList src={checkMarkIcon} skill="Gen AI" />
-        <SkillList src={checkMarkIcon} skill="Tanstack Query" />
+        <SkillList src={checkMarkIcon} skill="Mastra Ai" />
+        <SkillList src={checkMarkIcon} skill="Sandboxes" />
+        <SkillList src={checkMarkIcon} skill="LLM integrations" />
         <SkillList src={checkMarkIcon} skill="RAG" />
         <SkillList src={checkMarkIcon} skill="Ethereum/Solana" />
       
