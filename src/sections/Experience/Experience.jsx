@@ -138,10 +138,11 @@ function Experience() {
           padding: "0 10px",
         }}
       >
+        <SkillList src={checkMarkIcon} skill="Nestjs" />
+        <SkillList src={checkMarkIcon} skill="SpringBoot" />
+        <SkillList src={checkMarkIcon} skill="Golang" />
         <SkillList src={checkMarkIcon} skill="Nextjs" />
         <SkillList src={checkMarkIcon} skill="Typescript" />
-        <SkillList src={checkMarkIcon} skill="Trpc" />
-        <SkillList src={checkMarkIcon} skill="Nestjs" />
         <SkillList src={checkMarkIcon} skill="Prisma" />
         <SkillList src={checkMarkIcon} skill="Postgres" />
         <SkillList src={checkMarkIcon} skill="AWS" />
